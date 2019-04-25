@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Hero, HeroBody, Title, Container, Card, Content, Media, CardContent, CardHeader, CardImage, Image, MediaLeft, MediaContent, Subtitle, CardHeaderTitle } from "bloomer";
-import profileImg from "../../../styles/Images/Profile_Placeholder.jpg"
+import profileImg from "../../../resources/Images/Profile_Placeholder.jpg"
 
 // import "../../../styles/css/style.css"
 

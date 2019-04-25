@@ -4,7 +4,7 @@ import {
     Hero, HeroBody, Title, Container, Card, CardContent, CardHeaderTitle, Field, FieldLabel, FieldBody,
     Label, Icon, Input, Control, TextArea, Button
 } from "bloomer";
-import profileImg from "../../../styles/Images/Profile_Placeholder.jpg"
+
 
 function Contact(props) {
     return (

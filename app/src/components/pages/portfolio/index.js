@@ -1,7 +1,9 @@
 import React from "react";
 
-import { Hero, HeroBody, Title, Container, Card, Content, Media, CardContent, CardHeader, CardImage, Image, MediaLeft, MediaContent, Subtitle, CardHeaderTitle } from "bloomer";
-import profileImg from "../../../styles/Images/Profile_Placeholder.jpg"
+import { Hero, HeroBody, Title, Container, Columns, Column, Notification,  } from "bloomer";
+
+import "../../../resources/links.json"
+
 
 function Portfolio(props) {
     return (
@@ -15,27 +17,18 @@ function Portfolio(props) {
           </HeroBody>
         </Hero>
         <Container style={{marginTop: "25px"}}>
-        {/* <Card className="has-background-grey has-text-primary">
-        <CardHeaderTitle>
-        <Title isSize={4}>Austin Shea</Title>
-        </CardHeaderTitle>
+        <Columns isCentered>
+    <Column isSize='1/3'>
+        <Notification isColor='success' hasTextAlign='centered'> isOneThird </Notification>
+    </Column>
+    <Column isSize='1/3'>
+        <Notification isColor='success' hasTextAlign='centered'> isOneThird </Notification>
+    </Column>
+    <Column isSize='1/3'>
+        <Notification isColor='success' hasTextAlign='centered'> isOneThird </Notification>
+    </Column>
 
-    <CardContent>
-        <Media>
-            <MediaLeft>
-                <Image isSize='30x30' src={profileImg} />
-            </MediaLeft>
-            <MediaContent>
-                
-            </MediaContent>
-        </Media>
-        <Content>
-            People Keep Asking If I’m Back, And I Haven’t Really Had An Answer, But Now, Yeah, I’m Thinking I’m Back.
-            <br/>
-            <small>11:09 PM - 30 October 2014</small>
-        </Content>
-    </CardContent>
-</Card> */}
+</Columns>
         </Container>
       </div>
     );

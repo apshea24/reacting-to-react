@@ -12,23 +12,22 @@ import {
 
 function Footer(props) {
     return (
-      <Foot className="footer">
+      <Foot className="footer is-fixed-bottom has-background-grey ">
         <Container>
           <Content>
             <Columns>
               <Column>
                 <p>
-                  Made with 
+                  Made with Bulma
                 </p>
               </Column>
             </Columns>
             <Content isSize="small">
               <p>
-                The source code is licensed under MIT.
+                Austin Shea's Portfolio Page.
               </p>
               <p>
-                The website content is licensed under{" "}
-                CC ANS 4.0.
+                Copyright
               </p>
             </Content>
           </Content>
