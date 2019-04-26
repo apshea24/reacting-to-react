@@ -21,7 +21,7 @@ import {
 function Navigation(props) {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <Navbar className="has-background-grey has-text-primary is-bold header is-fixed-top" style={{ border: 'solid 1px #00D1B2', margin: '0'}} isFlex="mobile">
+        <Navbar className="has-text-primary is-bold header is-fixed-top header" style={{ border: 'solid 1px #00D1B2', margin: '0'}} isFlex="mobile">
 <NavbarBrand>
     <NavbarItem>
         {/* <img  style={{ marginRight: 5 }} /> Bloomer */}

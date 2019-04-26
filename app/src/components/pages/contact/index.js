@@ -18,7 +18,7 @@ function Contact(props) {
                 </HeroBody>
             </Hero>
             <Container style={{ marginTop: "25px" }}>
-                <Card className="has-background-grey has-text-primary">
+                <Card className="has-background-grey has-text-primary contact-card">
 
 
                     <CardContent style={{textAlign: "center"}}>

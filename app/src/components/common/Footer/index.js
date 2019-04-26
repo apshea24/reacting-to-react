@@ -12,17 +12,14 @@ import {
 
 function Footer(props) {
     return (
-      <Foot className="footer is-fixed-bottom has-background-grey ">
+      <Foot className="footer is-fixed-bottom is-paddingless  has-text-centered">
         <Container>
           <Content>
-            <Columns>
-              <Column>
-                <p>
+
+            <Content isSize="small">
+            <p>
                   Made with Bulma
                 </p>
-              </Column>
-            </Columns>
-            <Content isSize="small">
               <p>
                 Austin Shea's Portfolio Page.
               </p>

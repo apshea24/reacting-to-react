@@ -4,6 +4,8 @@ import { Hero, HeroBody, Title, Container, Columns, Column, Notification,  } fro
 
 import "../../../resources/links.json"
 
+import Card from "../../common/Card"
+
 
 function Portfolio(props) {
     return (
@@ -19,7 +21,7 @@ function Portfolio(props) {
         <Container style={{marginTop: "25px"}}>
         <Columns isCentered>
     <Column isSize='1/3'>
-        <Notification isColor='success' hasTextAlign='centered'> isOneThird </Notification>
+        <Card></Card>
     </Column>
     <Column isSize='1/3'>
         <Notification isColor='success' hasTextAlign='centered'> isOneThird </Notification>

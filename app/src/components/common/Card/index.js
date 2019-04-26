@@ -1,13 +1,13 @@
 import React from "react";
 
 import {
-    Card, CardImage, CardContent, Media, MediaContent, MediaLeft, Content, Tile, Subtitle
+    Card as Cards, CardImage, CardContent, Media, MediaContent, MediaLeft, Content, Title, Subtitle
 } from "bloomer";
 
 function Card(props) {
     return (
         <div>
-            <Card href={props.url}>
+            <Cards href={props.url} className="port-cards">
                 <CardImage>
                     <img isRatio="4:3" src={props.image}></img>
                 </CardImage>
@@ -20,7 +20,9 @@ function Card(props) {
                     </Media>
                     <Content></Content>
                 </CardContent>
-            </Card>
+            </Cards>
         </div>
     );
-}
+};
+
+export default Card;

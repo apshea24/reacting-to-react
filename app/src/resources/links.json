@@ -66,27 +66,28 @@
         "title": "Lire-Node-App",
         "url": "https://apshea24.github.io/liri-node-app/",
         "image": "",
-        "description": ""
+        "description": "",
+        "icon": "fab fa-node-js"
     },
     "veleven": {
         "title": "Giftastic",
         "url": "https://apshea24.github.io/Gif-Tastic/",
         "image": "",
         "description": "",
-        "icon": "fab fa-react"
+        "icon": "fas fa-images"
     },
     "vtwelve": {
         "title": "Train Schedule",
         "url": "https://apshea24.github.io/TrainSchedule/",
         "image": "",
         "description": "",
-        "icon": "fab fa-react"
+        "icon": "fas fa-train"
     },
     "vthirteen": {
         "title": "Crystal Game",
         "url": "https://apshea24.github.io/unit-4-game/",
         "image": "",
         "description": "",
-        "icon": "fab fa-react"
+        "icon": "fas fa-gem"
     }
 }
