@@ -74,10 +74,10 @@ function Navigation(props) {
         <NavbarItem hasDropdown isHoverable>
             <NavbarLink href='#/documentation'>Team Projects</NavbarLink>
             <NavbarDropdown>
-                <NavbarItem href='#/'>Top 5</NavbarItem>
-                <NavbarItem href='#/'>Pill Coach</NavbarItem>
+                <NavbarItem href='https://carringtonallison.github.io/top5/'>Top 5</NavbarItem>
+                <NavbarItem href='http://pillcoach.herokuapp.com/'>Pill Coach</NavbarItem>
                 {/* <NavbarDivider /> */}
-                <NavbarItem href='#/'>Man's Best Friend</NavbarItem>
+                <NavbarItem href='https://enigmatic-lake-24268.herokuapp.com/'>Man's Best Friend</NavbarItem>
             </NavbarDropdown>
         </NavbarItem>
         

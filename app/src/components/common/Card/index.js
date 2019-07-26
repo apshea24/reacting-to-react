@@ -7,19 +7,21 @@ import {
 function Card(props) {
     return (
         <div>
-            <Cards href={props.url} className="port-cards">
-                <CardImage>
-                    <img isRatio="4:3" src={props.image}></img>
+            <Cards href={props.url} className="port-cards pCards">
+            <a href={props.url}>
+                <CardImage className="is-flex is-horizontal-center cImage">
+                    <img isRatio="" src={props.image} style={{height: "200px", width: "200px", margin: "auto"}}></img>
                 </CardImage>
                 <CardContent>
                     <Media>
                         <MediaContent>
                             <Title isSize={4}>{props.title}</Title>
-                            <Subtitle isSize={6}>{props.tag}</Subtitle>
+                            <Subtitle isSize={6}>{props.description}</Subtitle>
                         </MediaContent>
                     </Media>
                     <Content></Content>
                 </CardContent>
+            </a>
             </Cards>
         </div>
     );
