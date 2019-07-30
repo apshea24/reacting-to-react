@@ -3,92 +3,92 @@
      {
         "title": "Mans Best Friend",
         "url": "https://enigmatic-lake-24268.herokuapp.com/",
-        "image": "https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F162523%252FAP107825870.jpg%252F950x534__filters%253Aquality%252880%2529.jpg?signature=lSLtnDbgv0VgkMnso-SXh-YGC0A=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com",
+        "image": "images/mansbest.jpg",
         "description": "A full stack MERN Application which is designed to create a network of pet owners",
         "icon": "fab fa-react"
     },
     {
         "title": "Pill Coach",
         "url": "http://pillcoach.herokuapp.com/",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRlsD8MPuJILzD0gshu5l5zh1pI6OsM-wBkiwM7uqKVMBoV4d6Q",
+        "image": "images/pillcoach.jpg",
         "description": "A front-end/back-end application which is designed to help keep track of prescriptions and when to take doses. Contains some logic that sets a calendar event for each dose needed",
         "icon": "fas fa-pills"
     },
     {
         "title": "Top 5",
         "url": "https://carringtonallison.github.io/top5/",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJANEVCItH5Bp5lWRbpUjBrTsDE5UGswev9M0sSxMSXyQyS61d",
+        "image": "images/topfive.jpg",
         "description": "An application built with Bootstrap that pulls in the top 5 fantasy football players based on position and other parameters. Will also give you 5 sports bars near you utilizing the Yelp API",
         "icon": "fas fa-football-ball"
     },
      {
         "title": "Friend Finder",
         "url": "https://evening-plains-20395.herokuapp.com/",
-        "image": "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737__340.jpg",
-        "description": "",
+        "image": "images/friend.jpg",
+        "description": "A Express Application which will take in user survey results and will create a match with another user based on both users answers",
         "icon": "fas fa-user-friends"
     },
      {
         "title": "Psychic Game",
         "url": "https://apshea24.github.io/Psychic-Game/",
-        "image": "",
-        "description": "",
+        "image": "images/psychic.jpg",
+        "description": "A psychic game where a letter is generated randomly and the user has to guess the letter in 9 guesses. Early exposure to Javascript",
         "icon": "fas fa-brain"
     },
      {
         "title": "NYT Book Search",
         "url": "https://agile-badlands-47075.herokuapp.com/",
-        "image": "",
-        "description": "",
+        "image": "images/nyt.jpg",
+        "description": "An Application using the New York Times API to pull in articles based on user search paramaters.",
         "icon": "fas fa-book"
     },
      {
         "title": "Sandwich Cafe",
         "url": "https://gentle-hollows-54072.herokuapp.com/burgers",
-        "image": "",
-        "description": "",
+        "image": "images/sandwich.jpg",
+        "description": "A Sandwich Logger application which uses Node and MySQL to query and route data, and Handlebars to render the HTML.",
         "icon": "fas fa-hamburger"
     },
      {
         "title": "Bamazon",
         "url": "https://apshea24.github.io/Bamazon/",
-        "image": "",
-        "description": "",
+        "image": "images/manager3.jpg",
+        "description": "An Amazon-like storefront utilizing MySQL. The app will take in orders from customers and deplete stock from the store's inventory.",
         "icon": "fab fa-node-js"
     },
     {
         "title": "Trivia Game",
         "url": "https://apshea24.github.io/TriviaGame/",
-        "image": "",
-        "description": "",
+        "image": "images/got.jpg",
+        "description": "a Trivia Game using JavaScript for the logic and jQuery to manipulate HTML. Answer the questions before time runs out.",
         "icon": "fas fa-question"
     },
     {
         "title": "Lire-Node-App",
         "url": "https://apshea24.github.io/liri-node-app/",
-        "image": "",
-        "description": "",
+        "image": "images/concert-this_return.jpg",
+        "description": "A command line Node application that takes in user parameters and updates information retreived from various API's.",
         "icon": "fab fa-node-js"
     },
     {
         "title": "Giftastic",
         "url": "https://apshea24.github.io/Gif-Tastic/",
-        "image": "",
-        "description": "",
+        "image": "images/gif.jpg",
+        "description": "An application utilizing the GIPHY API, which dynamically adds Giph's to the page based on user input",
         "icon": "fas fa-images"
     },
     {
         "title": "Train Schedule",
         "url": "https://apshea24.github.io/TrainSchedule/",
-        "image": "",
-        "description": "",
+        "image": "images/train.jpg",
+        "description": "A train schedule application that incorporates Firebase and Moment.js to provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive.",
         "icon": "fas fa-train"
     },
     {
         "title": "Crystal Game",
         "url": "https://apshea24.github.io/unit-4-game/",
-        "image": "",
-        "description": "",
+        "image": "images/morty.jpg",
+        "description": "A Crystal Collector game using jQuery to dynamically update a simple HTML page",
         "icon": "fas fa-gem"
     }
 ]

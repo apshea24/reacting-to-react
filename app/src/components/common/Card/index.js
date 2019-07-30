@@ -10,12 +10,12 @@ function Card(props) {
             <Cards href={props.url} className="port-cards pCards">
             <a href={props.url}>
                 <CardImage className="is-flex is-horizontal-center cImage">
-                    <img isRatio="" src={props.image} style={{height: "200px", width: "200px", margin: "auto"}}></img>
+                    <img isRatio="" className="port-images" src={props.image} style={{height: "200px", width: "200px", margin: "auto"}}></img>
                 </CardImage>
-                <CardContent>
+                <CardContent className="card-content">
                     <Media>
                         <MediaContent>
-                            <Title isSize={4}>{props.title}</Title>
+                            <Title className="justify-content-center port-title" isSize={4}>{props.title}</Title>
                             <Subtitle isSize={6}>{props.description}</Subtitle>
                         </MediaContent>
                     </Media>
